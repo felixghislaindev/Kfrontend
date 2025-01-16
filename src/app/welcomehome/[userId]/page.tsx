@@ -16,9 +16,12 @@ const fetchDeliveryData = async (
   return data;
 };
 
-const WelcomeHome = async ({ params }: { params: { userId: string } }) => {
-  const { userId } = params;
-
+const WelcomeHome = async ({
+  params,
+}: {
+  params: Promise<{ userId: string }>;
+}) => {
+  const { userId } = await params;
   const deliveryData = await fetchDeliveryData(userId);
 
   if (!deliveryData) {
