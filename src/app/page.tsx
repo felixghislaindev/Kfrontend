@@ -42,7 +42,7 @@ export default function Home() {
             <li>Ensures grammatically correct formatting for cat names.</li>
           </ul>
           <p className="text-gray-600 mt-4">
-            Check out the backend repository on GitHub:{" "}
+            Check out the backend repository on GitHub:
             <a
               href="https://github.com/felixghislaindev/KBackend/"
               className="text-blue-500 underline"
@@ -75,7 +75,7 @@ export default function Home() {
             </li>
           </ul>
           <p className="text-gray-600 mt-4">
-            Check out the frontend repository on GitHub:{" "}
+            Check out the frontend repository on GitHub:
             <a
               href="https://github.com/felixghislaindev/Kfrontend"
               className="text-blue-500 underline"
@@ -97,7 +97,7 @@ export default function Home() {
           </p>
           <ul className="list-disc list-inside text-gray-600 ml-4 mt-2 space-y-1">
             <li>
-              <strong>Backend API:</strong>{" "}
+              <strong>Backend API:</strong>
               <a
                 href="https://kbackend-production.up.railway.app/comms/"
                 className="text-blue-500 underline"
@@ -108,7 +108,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <strong>Frontend Application:</strong>{" "}
+              <strong>Frontend Application:</strong>
               <a
                 href="https://kfrontend-production.up.railway.app"
                 className="text-blue-500 underline"
@@ -128,14 +128,14 @@ export default function Home() {
           <p className="text-gray-600">To test the full flow:</p>
           <ol className="list-decimal list-inside text-gray-600 ml-4 mt-2 space-y-1">
             <li>
-              Use the backend API to fetch data by hitting the endpoint:{" "}
+              Use the backend API to fetch data by hitting the endpoint:
               <code className="bg-gray-100 px-1 py-0.5 rounded">
                 /comms/your-next-delivery/ff535484-6880-4653-b06e-89983ecf4ed5
               </code>
               .
             </li>
             <li>
-              Access the frontend at:{" "}
+              Access the frontend at:
               <code className="bg-gray-100 px-1 py-0.5 rounded">
                 /welcome/ff535484-6880-4653-b06e-89983ecf4ed5
               </code>
