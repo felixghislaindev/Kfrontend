@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <p className="text-gray-600 mt-2">The API:</p>
           <ul className="list-disc list-inside text-gray-600 ml-4 mt-2 space-y-1">
-            <li>Fetches the user's data based on their ID.</li>
+            <li>Fetches the user&apos;s data based on their ID.</li>
             <li>Generates a JSON response with the following fields:</li>
             <ul className="list-disc ml-6 space-y-1">
               <li>
