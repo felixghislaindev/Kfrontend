@@ -137,7 +137,7 @@ export default function Home() {
             <li>
               Access the frontend at:
               <code className="bg-gray-100 px-1 py-0.5 rounded">
-                /welcome/ff535484-6880-4653-b06e-89983ecf4ed5
+                /welcomehome/ff535484-6880-4653-b06e-89983ecf4ed5
               </code>
               .
             </li>
