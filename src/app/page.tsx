@@ -130,14 +130,14 @@ export default function Home() {
             <li>
               Use the backend API to fetch data by hitting the endpoint:
               <code className="bg-gray-100 px-1 py-0.5 rounded">
-                /comms/your-next-delivery/ff535484-6880-4653-b06e-89983ecf4ed5
+                https://kbackend-production.up.railway.app/comms/your-next-delivery/ff535484-6880-4653-b06e-89983ecf4ed5
               </code>
               .
             </li>
             <li>
               Access the frontend at:
               <code className="bg-gray-100 px-1 py-0.5 rounded">
-                /welcomehome/ff535484-6880-4653-b06e-89983ecf4ed5
+                https://kfrontend-production.up.railway.app/welcomehome/ff535484-6880-4653-b06e-89983ecf4ed5
               </code>
               .
             </li>
