@@ -143,7 +143,7 @@ export default function Home() {
             </li>
           </ol>
           <p className="text-gray-600 mt-2">
-            The frontend will fetch data for the user with ID{" "}
+            The frontend will fetch data for the user with ID
             <code className="bg-gray-100 px-1 py-0.5 rounded">
               ff535484-6880-4653-b06e-89983ecf4ed5
             </code>
